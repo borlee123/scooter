@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Электросамокаты</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header" id="main">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="header__logo"
+            ><img src="./image/logo.svg" alt="" class="header__logo-img"
+          /></a>
+          <div class="header__phone">
+            <a href="tel:+79780511050"
+              >&#9742; <span class="header__namber">+7 (978) 051-10-50</span></a
+            >
+          </div>
+
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#advantage" class="menu__link">Преимущества</a>
+              </li>
+              <li class="menu__item">
+                <a href="#contacts" class="menu__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section id="slider" class="scooter">
+      <div class="container">
+        <div class="scoter__inner">
+          <div class="scooter__column scooter__column-slider">
+            <div class="scooter__slider">
+              <ul class="scooter__list">
+                <h1 class="scooter__title">KUGOO S3 PRO</h1>
+                <h3 class="scoter__subtitle">Электросамокат</h3>
+                <p class="scooter__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis error harum ratione facere alias sequi voluptate?
+                  Sequi, expedita asperiores veniam sapiente quaerat eveniet
+                  quae impedit quam culpa, velit in labore?
+                </p>
+                <li>
+                  <img
+                    src="./image/scoter_1.webp"
+                    alt=""
+                    class="scooter__item"
+                  />
+                </li>
+                <li class="scooter__list-item">
+                  Вес самоката<span>10,7 кг</span>
+                </li>
+                <li class="scooter__list-item">
+                  Макс скорость<span>35 км</span>
+                </li>
+                <li class="scooter__list-item">
+                  Мощность аккумулятора<span>350 w</span>
+                </li>
+                <li class="scooter__list-item">
+                  Ёмкость аккумулятора<span>8,8 mAh</span>
+                </li>
+              </ul>
+              <ul class="scooter__list">
+                <h1 class="scooter__title">HALTEN RS-01 500W/15AH</h1>
+                <h3 class="scoter__subtitle">Электросамокат</h3>
+                <p class="scooter__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis error harum ratione facere alias sequi voluptate?
+                  Sequi, expedita asperiores veniam sapiente quaerat eveniet
+                  quae impedit quam culpa, velit in labore?
+                </p>
+                <li>
+                  <img
+                    src="./image/scooter_2.webp"
+                    alt=""
+                    class="scooter__item"
+                  />
+                </li>
+                <li class="scooter__list-item">
+                  Вес самоката<span>10,7 кг</span>
+                </li>
+                <li class="scooter__list-item">
+                  Макс скорость<span>35 км</span>
+                </li>
+                <li class="scooter__list-item">
+                  Мощность аккумулятора<span>350 w</span>
+                </li>
+                <li class="scooter__list-item">
+                  Ёмкость аккумулятора<span>8,8 mAh</span>
+                </li>
+              </ul>
+              <ul class="scooter__list">
+                <h1 class="scooter__title">NINEBOT KICKSCOOTER ES2</h1>
+                <h3 class="scoter__subtitle">Электросамокат</h3>
+                <p class="scooter__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis error harum ratione facere alias sequi voluptate?
+                  Sequi, expedita asperiores veniam sapiente quaerat eveniet
+                  quae impedit quam culpa, velit in labore?
+                </p>
+                <li>
+                  <img
+                    src="./image/scooter_3.webp"
+                    alt=""
+                    class="scooter__item"
+                  />
+                </li>
+                <li class="scooter__list-item">
+                  Вес самоката<span>10,7 кг</span>
+                </li>
+                <li class="scooter__list-item">
+                  Макс скорость<span>35 км</span>
+                </li>
+                <li class="scooter__list-item">
+                  Мощность аккумулятора<span>350 w</span>
+                </li>
+                <li class="scooter__list-item">
+                  Ёмкость аккумулятора<span>8,8 mAh</span>
+                </li>
+              </ul>
+            </div>
+            <div class="card__order">
+              <a href="#" class="card__btn card__btn-slider card__btn-popup"
+                >Заказать</a
+              >
+            </div>
+            <div class="popup-bg">
+              <div class="popup">
+                <img class="close-popup" src="image/close.png" alt="" />
+                <form
+                  class="form__order popup__form"
+                  action="sendmail.php"
+                  method="POST"
+                >
+                  <span class="type__name">Ваше имя:</span>
+                  <input
+                    class="name"
+                    name="name"
+                    type="text"
+                    placeholder="Введите ваше имя"
+                    maxlength="20"
+                    required
+                  />
+                  <span>Ваш телефон:</span>
+                  <input
+                    class="phone"
+                    name="phone"
+                    type="tel"
+                    placeholder="+7(978)111-11-11"
+                    required
+                  />
+                  <div>
+                    <input
+                      id="checkbox"
+                      type="checkbox"
+                      name="checkbox"
+                      required
+                    />
+                    <label for="checkbox">Принимаю условия</label>
+                  </div>
+                  <input class="submit" type="submit" value="Оставить заявку" />
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="scooter__column scooter__column-order">
+            <p class="order__text">
+              Понравился самокат, оставляйте заяку на покупку:
+            </p>
+
+            <form class="form__order" action="sendmail.php" method="POST">
+              <span class="type__name">Ваше имя:</span>
+              <input
+                class="name"
+                name="name"
+                type="text"
+                placeholder="Введите ваше имя"
+                maxlength="20"
+                required
+              />
+              <span>Ваш телефон:</span>
+              <input
+                class="phone"
+                name="phone"
+                type="tel"
+                placeholder="+7(978)111-11-11"
+                required
+              />
+              <div>
+                <input id="checkbox" type="checkbox" name="checkbox" required />
+                <label for="checkbox">Принимаю условия</label>
+              </div>
+              <input class="submit" type="submit" value="Оставить заявку" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="card">
+      <div class="container">
+        <div class="card__inner">
+          <h2 id="advantage" class="card__header">Преимущества</h2>
+          <div class="card__row">
+            <div class="card__column">
+              <div class="card__item">
+                <div class="item__row">
+                  <div class="item__image">
+                    <img src="./image/Tachometer-alt.svg" alt="" />
+                  </div>
+                  <div class="item__body">
+                    <div class="item__title">Lorem, ipsum dolor.</div>
+                    <div class="item__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Incidunt amet optio, voluptatum neque at enim illum vero
+                      quaerat officiis reiciendis.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card__column">
+              <div class="card__item">
+                <div class="item__row">
+                  <div class="item__image">
+                    <img src="./image/Tachometer-alt.svg" alt="" />
+                  </div>
+                  <div class="item__body">
+                    <div class="item__title">Lorem, ipsum dolor.</div>
+                    <div class="item__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Incidunt amet optio, voluptatum neque at enim illum vero
+                      quaerat officiis reiciendis.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card__column">
+              <div class="card__item">
+                <div class="item__row">
+                  <div class="item__image">
+                    <img src="./image/Tachometer-alt.svg" alt="" />
+                  </div>
+                  <div class="item__body">
+                    <div class="item__title">Lorem, ipsum dolor.</div>
+                    <div class="item__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Incidunt amet optio, voluptatum neque at enim illum vero
+                      quaerat officiis reiciendis.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card__column">
+              <div class="card__item">
+                <div class="item__row">
+                  <div class="item__image">
+                    <img src="./image/Tachometer-alt.svg" alt="" />
+                  </div>
+                  <div class="item__body">
+                    <div class="item__title">Lorem, ipsum dolor.</div>
+                    <div class="item__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Incidunt amet optio, voluptatum neque at enim illum vero
+                      quaerat officiis reiciendis.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card__order">
+            <a href="#slider" class="card__btn">Сделать заказ</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="location" id="contacts">
+      <div class="container">
+        <h2 class="location__main">Контакты</h2>
+        <div class="location__inner">
+          <div class="location__map">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae33a58d1c9c7484df1db6c51d6d59d5774712ca105b6083e598e07006e01d817&amp;source=constructor"
+              width="100%"
+              height="100%"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <div class="location__adres">
+            <div class="location__info">
+              <h2 class="location__header">Мы находимся по адресу :</h2>
+              <p>г.Севастополь,ПОР 42Б</p>
+              <h2 class="location__header">Почта для обратной связи:</h2>
+              <a href="mailto:info@marketingl.su">info@marketingl.su</a>
+              <h2 class="location__header">Телефон:</h2>
+              <a href="tel:+79780511050">&#9742; +7 (978) 051-10-50</a>
+              <h2 class="location__header">Месенджеры</h2>
+              <a aria-label="WhatsApp" href="https://wa.me/+79780511050">
+                <img alt="Chat on WhatsApp" src="/image/whatsapp.svg" />
+              </a>
+              <a
+                aria-label="Viber"
+                href="viber://chat?number=79780511050"
+                rel="nofollow"
+              >
+                <img alt="Chat on Viber" src="/image/viber.svg" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
